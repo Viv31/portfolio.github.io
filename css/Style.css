@@ -1,0 +1,111 @@
+.container-fluid{
+			max-width: 1200px;
+
+		}
+		.navbar
+		{
+
+			margin-bottom: 0px;
+
+		}
+		.navbar-inverse{
+			border-radius: :0px;
+
+		}
+		.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{
+
+			color: #000000;
+
+
+		}
+		.navbar-inverse .navbar-toggle .icon-bar{
+			background-color: #7f8c8d; 
+		}
+		.navbar-inverse .navbar-nav>li>a:hover,
+		.navbar-inverse,.navbar-brand:hover,
+		.navbar-inverse .navbar-brand:focus{
+			background: #ffffff;
+			border-color: #34495e;
+			color: #2c3e50;
+
+		}
+		.navbar-inverse .navbar-toggle{
+			background: #34495e;
+		}
+		.navbar-inverse .navbar-nav>li>a:hover{
+			
+		}
+		/*.myclass{
+			border-right:5px solid blue;
+			border-radius: 30px;
+
+			border-left: 5px solid blue;
+			border-radius: 30px;
+
+		}*/
+		
+		.workexp_myclass{
+			height: 250px;
+			border-bottom: 3px solid grey;
+	box-shadow: 10px 10px 19px grey;
+	margin-bottom: 10px;
+		}
+
+		#services{
+			background: #a8a8a8;
+		}
+		html {
+  scroll-behavior: smooth;
+  background-color: cyan;
+}
+.myimg{
+	height: 150px;
+	width: 150px;
+	margin:0px 0px 0px 0px;
+}
+.jumbotron{
+	height:300px;
+margin:10px;
+}
+#expenrience{
+	margin-top: -30px;
+	background-image: url('../img/f.jpg');
+	background-size: cover;
+
+}
+#education{
+background-image: url('../img/c.jpg');
+ margin-top: -45px;
+}
+#education_section{
+	background-color: white;
+	border-width: 2px;
+	/*border: solid 2px black;*/
+	margin-bottom: 20px;
+    text-align: center;
+    height: 200px;
+}
+
+#education_section:hover{
+	border-bottom: 3px solid grey;
+	box-shadow: 10px 10px 19px grey;
+}
+#skills{
+	 background-color: #EBF4FA;
+	
+}
+#projects{
+	 background-color: #CFECEC;
+	 margin-top: 0px;
+}
+#hobbies{
+		 background-color: White;
+	 margin-top: 0px;
+}
+#contact{
+			 background-color: #800517;
+	 margin-top: 0px;
+}
+.exp{
+	background-image: url('img/3.jpg');
+}
