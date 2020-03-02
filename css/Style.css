@@ -1,81 +1,38 @@
-.container-fluid{
-			max-width: 1200px;
-
-		}
-		.navbar
-		{
-
-			margin-bottom: 0px;
-
-		}
-		.navbar-inverse{
-			border-radius: :0px;
-
-		}
-		.navbar-inverse .navbar-brand,.navbar-inverse .navbar-nav>li>a{
-
-			color: #000000;
-
-
-		}
-		.navbar-inverse .navbar-toggle .icon-bar{
-			background-color: #7f8c8d; 
-		}
-		.navbar-inverse .navbar-nav>li>a:hover,
-		.navbar-inverse,.navbar-brand:hover,
-		.navbar-inverse .navbar-brand:focus{
-			background: #ffffff;
-			border-color: #34495e;
-			color: #2c3e50;
-
-		}
-		.navbar-inverse .navbar-toggle{
-			background: #34495e;
-		}
-		.navbar-inverse .navbar-nav>li>a:hover{
-			
-		}
-		/*.myclass{
-			border-right:5px solid blue;
-			border-radius: 30px;
-
-			border-left: 5px solid blue;
-			border-radius: 30px;
-
-		}*/
-		
-		.workexp_myclass{
-			height: 250px;
-			border-bottom: 3px solid grey;
-	box-shadow: 10px 10px 19px grey;
-	margin-bottom: 10px;
-		}
-
-		#services{
-			background: #a8a8a8;
-		}
-		html {
+html {
   scroll-behavior: smooth;
-  background-color: cyan;
+  
 }
-.myimg{
-	height: 150px;
-	width: 150px;
-	margin:0px 0px 0px 0px;
-}
-.jumbotron{
-	height:300px;
-margin:10px;
+
+#home{
+	background-color: red;
+	background-image: url('../img/web2.jpg');
+	height: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin-top: 40px;
 }
 #expenrience{
-	margin-top: -30px;
-	background-image: url('../img/f.jpg');
+	margin-top: -20px;
+	background-image: url('../img/1.jpeg');
 	background-size: cover;
 
 }
-#education{
+.exp{
+	background-image: url('img/3.jpg');
+}
+
+.workexp_myclass{
+			height: 250px;
+			border-bottom: 3px solid grey;
+	box-shadow: 10px 10px 19px grey;
+	padding: 10px;
+	
+		}
+
+		#education{
 background-image: url('../img/c.jpg');
- margin-top: -45px;
+ margin-top: 0px;
 }
 #education_section{
 	background-color: white;
@@ -83,29 +40,58 @@ background-image: url('../img/c.jpg');
 	/*border: solid 2px black;*/
 	margin-bottom: 20px;
     text-align: center;
-    height: 200px;
+    height: 300px;
+    padding: 5px;
+    
+    background-color: #ded8d8;
 }
 
 #education_section:hover{
 	border-bottom: 3px solid grey;
 	box-shadow: 10px 10px 19px grey;
 }
-#skills{
-	 background-color: #EBF4FA;
+
+#home #profile_img{
 	
+	/*border: 5px solid black;*/
+	/*border-radius: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;*/
+  /*height: 200px;*/
+  /*margin-top: 10px;*/
 }
+
+.education_data{
+	padding-top: 10px;
+}
+
 #projects{
-	 background-color: #CFECEC;
-	 margin-top: 0px;
+	background-image: url('../img/1.jpeg');
+	background-size: cover;
+ margin-top: 0px;
+
 }
+
+
 #hobbies{
-		 background-color: White;
-	 margin-top: 0px;
+
+	background-image: url('../img/1.jpeg');
+	background-size: cover;
 }
-#contact{
-			 background-color: #800517;
-	 margin-top: 0px;
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  div#profile_img {
+    margin-left: 30px;
 }
-.exp{
-	background-image: url('img/3.jpg');
+  
 }

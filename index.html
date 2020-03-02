@@ -1,69 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Portfolio </title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet"  href="css/Style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="js/bootstrap.min.js"></script>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"  href="css/Style.css">
 </head>
+<body>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<!-- Navigation-->
-	<nav class="navbar navbar-inverse navbar-fixed-top ">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar"> 
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-
-				</button>
-			</div>
-			<div class="collapse navbar-collapse " id="main-navbar" >
-				<ul class="nav navbar-nav">
-					<li><a href="#home">HOME</a></li>
-					<li><a href="#expenrience">Experience</a></li>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Surbhi Gangrade</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">HOME</a></li>
+					<li><a href="#expenrience">EXPERIENCE</a></li>
 					<li><a href="#education">EDUCATION</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projects</a></li>
+					<li><a href="#skills">SKILLS</a></li>
+					<li><a href="#projects">PROJECTS</a></li>
 					<li><a href="#hobbies">HOBBIES</a></li>
-					<li><a href="#contact">contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.linkedin.com/in/surbhi-gangrade-8ab752192" target="_blank"><i class="fa fa-linkedin-square" style="font-size: 30px;"></i></a></li>
+      <li><a href="https://github.com/surbhi2101" target="_blank"><i class="fa fa-github-square" style="font-size: 30px;"></i></a></li>
+      <li><a href="#"><i class="fa fa-phone" style="font-size: 30px;"></i>vivgangs@gmail.com</a></li>
+          
+      </ul>
+    </div>
+  </div>
+</nav>
 
-					
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><i class="fa fa-linkedin-square" style="font-size: 30px;"></i></a></li>
-      <li><a href="#"><i class="fa fa-github-square" style="font-size: 30px;"></i> </a></li>
-      
-      <li><a href="#"><i class="fa fa-download" style="font-size: 30px;"></i></a></li>
-    </ul>
-			</div>
-				
-			</div>
-		</div>
-	</nav>
-	<!--Jumbotron-->
-	<div class="jumbotron" id="home">
-		<div class="container-fluid">
-			<!--<h1 class="text-center">THE DESIGN STORE</h1>-->
-			<center>
-			<img src="img/bb.jpg" class="myimg" >
-			<h6><B>SURBHI GANGRADE</B></h6>
-			</center>
-			<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			 laborum.</p>-->
-			
-		</div>
-	</div>
+  
+<div class="container">
+  <div class="jumbotron" id="home">
 	
+			
+				<div id="profile_img">
+			<img src="img/surbhi1.jpg" class="img-circle" height="250">
+			</div>
+		
+		
+	</div>
 
 	<div id="expenrience" class="exp">
-		<div class="container-fluid">
+		
 			<div class="page-header">
-				<h1 class="text-center"><img src="img/work_ex.jpg" height="80" width="100"></h1>
+				<h1 class="text-center">Work</h1>
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-md-offset-1 workexp_myclass">
@@ -97,53 +90,56 @@
 					</center>
 				</div>
 			</div>
-			
-			
 		</div>
-	</div>
-	<hr>
 
-
-<div id="education">
-		<div class="container-fluid">
-			<div class="page-header">
+			<div id="education">
+		<div class="page-header">
 				<h1 class="text-center"><i class='fa fa-graduation-cap' style='font-size:48px;'></i></h1>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-md-offset-1" id="education_section" >
-					<h5 class="text-uppercase" style="font-size: 18px"><B>Graduation</B></h5>
-					<p><b>College:<span></b>Mahakal Institute of Technology</span>
-					</p>
-					<p><b>Stream:</b><span> BE (Information Technology)</span>
-					</p>
-					<p><b>CGPA:</b><span> 7.93</span>
-					</p>
+				<div class="col-md-12">
+					<div class="col-md-1"></div>
+				<div class="col-md-3 " id="education_section">
+					<div class="education_data">
+						<h5 class="text-uppercase" style="font-size: 18px;"><b>Graduation</b></h5>
+					<p><b>College:</b><span>Mahakal Institute of Technology,Ujjain</span></p>
+					<p><b>Stream:</b><span> BE (Information Technology)</span></p>
+					<p><b>CGPA:</b><span> 7.93</span></p>
+					<p><b>Year Of Passing:</b><span> 2017</span></p>
+					</div>
+					
 				</div>
-				<div class="col-md-3 col-md-offset-1" id="education_section">
+				<div class="col-md-1"></div>
+				<div class="col-md-3 " id="education_section">
+					<div class="education_data">
 					<h5 class="text-uppercase" style="font-size: 18px"><b>Higher Secondary</b></h5>
-					<p><b>School:</b><span> Saraswati Vidya Mandir</span>
+					<p><b>School:</b><span> Saraswati Vidya Mandir,Shujalpur (M.P.)</span>
 					</p>
 					<p><b>Stream:</b><span> PCM</span>
 					</p>
 					<p><b>Percentage:</b><span> 67.66%</span>
 					</p>
+					<p><b>Year Of Passing:</b><span> 2013</span></p>
 				</div>
-				<div class="col-md-3 col-md-offset-1" id="education_section">
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-3 " id="education_section">
+					<div class="education_data">
 					<h5 class="text-uppercase" style="font-size: 18px"><b>High School</b></h5>
-					<p><b>School:</b><span> Saraswati Vidya Mandir</span>
+					<p><b>School:</b><span> Saraswati Vidya Mandir,Shujalpur (M.P.)</span>
 					</p>
 					<p><b>Percentage:</b><span> 64.66%</span>
 					</p>
+					<p><b>Year Of Passing:</b><span> 2011</span></p>
 				</div>
-			</div>
+				</div>
 			
-			
-		</div>
 	</div>
+</div>
+</div>
 
-
-	<div id="skills">
-		<div class="container-fluid">
+<div id="skills">
+		
 			<div class="page-header">
 				<h1 class="text-center">Skills</h1>
 			</div>
@@ -199,81 +195,78 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	
 
-
-
-	<div id="projects">
-		<div class="container-fluid">
+<div id="projects">
+		
 			<div class="page-header">
 				<h1 class="text-center">Projects</h1>
 			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-4 myclass">
+					<img src="img/p1.png"  height="300px" width="100%">
+					<h5>Logo Design</h5>
+					<p>creative logo design for sumantra ventures.
+					</p>
+				</div>
+				<div class="col-md-4 myclass">
+					<img src="img/Political_Campaigning.png"  height="300px" width="100%">
+					<h5>Political campaigning</h5>
+					<p>Political campaigning in Loksabha and vidhansabha election for the diffrent diffrent candidates.
+					</p>
+				</div>
+				<div class="col-md-4 myclass">
+					<img src="img/sumantra.jpg"  height="300px" width="100%">
+					<h5>Website Design</h5>
+					<p>Creative Website Design for sumantra ventures.
+					</p>
+				</div>
+						<div class="row">
+						<div class="col-md-12">
+				<div class="col-md-4 myclass">
+					<img src="img/gas_agency.jpg"  height="300px" width="100%">
+					<h5>Gas Agency Software</h5>
+					<p>Desktop application Gas Agency Software Design in WPF,Xaml.
+					</p>
+				</div>
+				<div class="col-md-4 myclass">
+					<img src="img/school_management.jpg" height="300px" width="100%">
+					<h5>School Management Software</h5>
+					<p>Desktop application School Management Software Design in WPF,Xaml.
+					</p>
+				</div>
+				<div class="col-md-4 myclass">
+					<img src="img/book_management.jpg" height="300px" width="100%">
+					<h5>Book Management</h5>
+					<p>Desktop application Book Management Software Design in WPF,Xaml.
+					</p>
+				</div>
+			</div>
+			</div>
 			<div class="row">
 				<div class="col-md-4 myclass">
-					<img src="img/p1.png"  height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<img src="img/software_testing.jpg"  height="300px" width="100%">
+					<h5>Material Testing</h5>
+					<p>Desktop application Material Testing Software Design in WPF,Xaml.
 					</p>
 				</div>
 				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					<img src="img/GST.jpg" height="300px" width="100%">
+					<h5>GST</h5>
+					<p>Desktop application GST Software Design in WPF,Xaml.
 					</p>
 				</div>
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-			
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
+				
+				
 			</div>
-			<!--<div class="row">
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-				<div class="col-md-4 myclass">
-					<img src="img/3.jpg" class="img-circle" height="150px" width="150px">
-					<h5>Project Manager</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					</p>
-				</div>
-			</div>
-		-->
+		
 		</div>
 	</div>
-
-
-	<div id="hobbies">
-		<div class="container-fluid">
+</div>
+	
+<div id="hobbies">
 			<div class="page-header">
 				<h1 class="text-center">HOBBIES</h1>
 			</div>
@@ -298,10 +291,8 @@
 				</div>
 			</div>
 			
-		</div>
 	</div>
+</div><!--End of container-->
 
-
-	
 </body>
 </html>
